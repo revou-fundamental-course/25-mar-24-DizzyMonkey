@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="../AssignmentRevoU/css/style.css">
+    <script src="../AssignmentRevoU/javascript/script.js"></script>
+
+</head>
+<body>
+<!-- RANGGA NATA ADININGRAT -->
+<!-- Form -->
+    <div class="container">
+        <div class="form-container">
+          <div class="form-group">
+            <h1>Kalkulator BMI</h1>
+            <p>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang
+                penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu?
+                Yuk, hitung sekarang di kalkulator BMI
+            </p>
+            <div class="gender">
+            <label for="gender">Jenis Kelamin</label>
+            <label><input type="radio" name="gender" value="male" class="radio">Pria</label>
+            <label><input type="radio" name="gender" value="female" class="radio">Wanita</label>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="weight">Berat Badan(KG)</label>
+            <input type="number" class="weight" min="0" placeholder="Masukkan berat badan">
+          </div>
+
+          <div class="form-group">
+            <label for="age">Usia (Tahun)</label>
+            <input type="number" class="age" min="0" placeholder="Masukkan Umur">
+          </div>
+
+          <div class="form-group">
+            <label for="bodyHeight">Tinggi Badan (CM)</label>
+            <input type="number" class="bodyHeight" min="0" placeholder="Masukkan Umur">
+          </div>
+          
+          <div class="button-group">
+            <button class="button1">Hitung BMI</button>
+            <button class="button2">Reset</button>
+          </div>
+
+          <div class="BMIText">
+            <h2>Keunggulan Fitur</h2>
+            <p>1. Menghitung berat Badan <br>
+                2. Menentukan kategori berat badan atau Tidak <br>
+                3. Mempersiapkan program penurunan berat badan
+            </p>
+            <p>
+                Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter.
+            </p>
+            <p>
+                Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan Anda dengan nilai umum Indeks Massa Tubuh (atau BMI) dihitung sebagai berat badan Anda (dalam kilogram) dibagi dengan kuadrat tinggi badan Anda (dalam meter) atau BMI = Kg/M <sup>2</sup>
+            </p>
+        </div>
+
+        </div>
+
+        <div class="result-container">
+          <h1>Hasil</h1>
+          <div class="result">
+            <!-- Hasil perhitungan akan ditampilkan di sini -->
+            <p>Hasil berat badan Anda adalah</p>
+            <h1 class="resultCalc">0</h1>
+            <button type="button" class="dlButton"> <a href="#"> Download Hasil BMI </a></button>
+          </div>
+            
+          <p>Hasil BMI diantara 23 dan 25</p>
+
+          <div class="button3">
+            <button type="button" class="consButton"> <a href="https://www.prodia.co.id/">Konsultasi Ahli Gizi Via Aplikasi</a></button>
+            <button type="button" class="regButton"> <a href="https://www.halodoc.com">Registrasi Online Ahli Gizi</a></button>
+          </div>
+          
+
+          <!-- section setelah hasil perhitungan -->
+          <div class="botres">
+            <h4>Beberapa penyakit yang berasal dari kegemukan</h4>
+            <p>Diabetes <br>
+              Hipertensi <br>
+            Sakit Jantung <br>
+          Osteoarthritis</p>
+          <button type="button" class="consDocBut"> <a href="#"> Konsultasi Dokter Via Aplikasi </a></button>
+          <button type="button" class="regBut"> <a href="#"> Konsultasi Dokter Via Aplikasi </a></button>
+          </div>
+        </div>
+
+      </div>
+    
+</body>
+</html>
